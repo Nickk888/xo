@@ -284,7 +284,7 @@ class AIPlayer {
         return list;
     }
 
-    private static char opponent(char player) { return player == 'X' ? 'O' : 'X'; }
+    static char opponent(char player) { return player == 'X' ? 'O' : 'X'; }
 }
 
 // ─────────────────────────────────────────────
